@@ -1,0 +1,17 @@
+@font-face {
+    font-family: MinecraftRegular;
+    src: url("/Media/Fonts/MinecraftRegular-Bmg3.otf");
+}
+.headerImages{
+    display: block;
+    margin: auto;
+}
+#mainBody{
+    background-color: black;
+}
+.defaultText{
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: MinecraftRegular;
+}
