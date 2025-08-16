@@ -3,6 +3,8 @@
     src: url("/Media/Fonts/MinecraftRegular-Bmg3.otf");
 }
 .headerImages{
+    width: 100%;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -14,4 +16,50 @@
     font-size: 25px;
     color: whitesmoke;
     font-family: MinecraftRegular;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+}
+.navBar ul{
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar a{
+    text-decoration: none;
+    font-family: MinecraftRegular;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navBar a:hover{
+    background-color: #ffffff29;
+}
+.navBar li{
+    align-content: center;
+    float: left;
+}
+
+.downloadLink{
+    display: block;
+    margin: 20px auto;
+
+}
+
+.downloadLink a{
+    font-size: 40px;
+    text-decoration: none;
+    color: green;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.downloadLink a:hover{
+    border : 5px solid rgb(12, 143, 34);
+    background-color: rgba(0, 128, 0, 0.227);
 }
